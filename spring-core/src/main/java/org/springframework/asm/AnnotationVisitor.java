@@ -68,7 +68,7 @@ public abstract class AnnotationVisitor {
    *     calls. May be {@literal null}.
    */
   protected AnnotationVisitor(final int api, final AnnotationVisitor annotationVisitor) {
-    if (api != Opcodes.ASM9
+    if (api != Opcodes.ASM8
         && api != Opcodes.ASM8
         && api != Opcodes.ASM7
         && api != Opcodes.ASM6
